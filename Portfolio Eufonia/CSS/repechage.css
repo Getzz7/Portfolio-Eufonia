@@ -1,0 +1,164 @@
+.contenedor{
+    display: flex;
+    /*no excede 100%*/
+    flex-wrap: wrap;
+    
+}
+.bloque-menu1{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 48%; 
+}
+/*Primer bloque*/
+.bloque-menu2{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+    text-align: right;
+    width: 50%; 
+}
+.color-bloqueMenu{
+    background-color:rgb(197, 224, 231); ;
+}
+.font-menu{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+body{
+    margin: 0px;
+}
+/*Segundo Bloque*/
+.logo-img{
+    text-align: center;
+    padding: 2%;
+}
+.servicios{
+    padding: 1%;
+    text-align: center;
+}
+.espaciado-servicios{
+    margin: 3%;
+}
+.img-Banner{
+    width: 100%;
+}
+.contenedor-BG{
+    background-image: url("../imagenes/Repechage/banner.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 270px 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 410px;
+}
+.txt-Banner{
+    color: black;
+    padding-top: -2%;
+    margin-left: 73%;
+    position: absolute;
+    font-size: 32px;
+    text-align: left;
+    transform: translate(-50%, -50%);
+}
+.btn-banner{
+    font-size: 16px;
+    background-color: black;
+    padding: 15px 2%;
+    margin-left: 52%;
+    color: white;
+    width: 170px;
+}
+/*Tercer bloque*/
+.contenedor-triple{
+    display: flex;
+    margin-left: 7%;
+    margin-top: 3%;
+    /*no excede 100%*/
+    flex-wrap: wrap; 
+}
+.img-Servicios{
+    width: 30%;
+    margin-right: 3%;
+}
+.borde-img{
+    border: 5px solid rgb(197, 224, 231);;
+}
+.btn-servicios{
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 2%;
+    margin-top: 10%;
+    margin-left:24%;
+    color: rgb(0, 0, 0);
+    width: 200px;
+}
+/*Cuarto bloque*/
+.centrar-txt{
+    margin: 5%;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+.div-json{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+/*Quinto bloque*/
+.contenedor-BG-2{
+    background-image: url("../imagenes/Repechage/banner-2.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 270px 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 410px;
+}
+.txt-banner-2{
+    color: black;
+    padding-top: -2%;
+    margin-left:19%;
+    position: absolute;
+    font-size: 22px;
+    text-align: left;
+    transform: translate(-50%, -50%);
+}
+.btn-banner-2{
+    font-size: 16px;
+    background-color: black;
+    padding: 15px 2%;
+    color: white;
+    width: 170px;
+}
+/*Sexto bloque*/
+.produ-comp{
+    width: 30%;
+    text-align: center;
+    margin-right: 3%;
+}
+.contenedor-triple-2{
+    display: flex;
+    margin-left: 7%;
+    margin-top: 3%;
+    /*no excede 100%*/
+    flex-wrap: wrap; 
+}
+/*Setimo bloque*/
+footer{
+    background-color:rgb(197, 224, 231);
+    display: flex;
+    text-align: center;
+    padding: 100px 0px;
+}
+.info{
+    padding-right: 13%;
+    padding-left: 12%;
+}
+.redes-Sociales{
+    width: 15%;
+    margin-right: 5%;
+}

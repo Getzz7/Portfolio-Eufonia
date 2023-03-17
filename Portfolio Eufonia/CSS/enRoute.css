@@ -1,0 +1,201 @@
+/*Primer Bloque*/
+.contenedor{
+    display: flex;
+    /*no excede 100%*/
+    flex-wrap: wrap;   
+}
+div{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.font-menu{
+   margin-left: 2%;
+   padding: 1%;
+    text-decoration: none;
+    font-size:30px;
+    color: black;
+    border-left:  solid 1px;
+    border-right: solid 1px;
+}
+.img-menu{
+   margin-left: 12%;
+}
+.bloque-menu{
+    margin-top: 4%;
+    width: 60%; 
+}
+.logo-img{
+   width:20%;
+   padding: 1%;
+    
+}
+.redes-menu{
+    text-align: center;
+    margin-top: 3.5%;
+    width: 20%;
+}
+/*Segundo Bloque*/
+.contenedor-BG{
+    background-image: url("../imagenes/enRoute/carrusel1.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 410px;
+}
+.txt-1-banner{
+    font-size: 120px;
+    color: rgb(255, 102, 0);
+    font-style: italic;
+    margin-bottom: 1%;
+}
+.txt-2-banner{
+    margin-top: 1%;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+}
+/*Tercer Bloque*/
+.contenedor-BG-2{
+    background-image: url("../imagenes/enRoute/detallesbg.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 83px;
+    display: flex;
+    /*no excede 100%*/
+    flex-wrap: wrap;   
+}
+.detalles{
+    margin-top: 5%;
+    width: 33.33%;
+}
+.btn-banner{
+    margin-top: 4%;
+    font-size: 16px;
+    background-color: transparent;
+    border-style: solid;
+    padding: 15px 2%;
+    color: white;
+    border-radius: 30px;
+    border-color: white;
+    cursor: pointer;
+}
+/*Cuarto Bloque*/
+.txt-blanco{
+color: white;
+}
+.bloque-naranja{
+    padding: 6%;
+    background-color: rgb(255, 102, 0);
+    text-align: center;
+}
+.btn-naranja{
+    margin-top: 4%;
+    font-size: 16px;
+    background-color: transparent;
+    border-style: solid;
+    padding: 15px 2%;
+    color: white;
+    border-radius: 30px;
+    border-color: white;
+    cursor: pointer;
+}
+/*Quinto Bloque*/
+.titulo{
+    color:rgb(255, 102, 0);
+    font-size: 42px;
+    margin:1%;
+    margin-left: 227px;
+}
+.titulo-2{
+    font-size: 30px;
+    margin:1%;
+   
+}
+.bloque-1-json-1{
+    width: 50%;
+    position: relative;
+    text-align: left;
+    
+}
+.bloque-1-json-1-img{
+    margin-left: 24%;
+}
+
+.bloque-1-json-1-txt{
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    bottom: -25px;
+    left: 237px;
+    color: white;
+}.btn-blog{
+    margin-left: 227px;
+    margin-top: 4%;
+    font-size: 16px;
+    background-color: transparent;
+    border-style: solid;
+    padding: 15px 2%;
+    color: rgb(187, 187, 187);
+    border-radius: 30px;
+    border-color: rgb(187, 187, 187);
+    cursor: pointer;
+}
+/*Sexto Bloque*/
+.bloque-2-json-2{
+    width: 16.66%;
+    margin: 5% 0%;
+    text-align: center;
+    position: relative;
+}
+.bloque-2-json-2-img{
+    width: 90%;
+    margin-left: 3%;
+}
+/*Setimo Bloque*/
+.contenedor-BG-3{
+    background-image: url("../imagenes/enRoute/footerbg.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    padding: 15% 0%;
+     
+}
+.logo-footer{
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+}
+
+.txt-margin{
+    margin-right: 76%;
+}
+.txt-margin2{
+    color: rgb(255, 102, 0);
+    margin-left: 76%;
+}
+.info{
+    width: 50%;
+    text-align: center;
+}
+.info2{
+    width: 50%;
+    text-align: center;
+}
+.img-menu-2{
+   
+    margin: 10%;
+ }
+ .redes-menu-2{
+    text-align: center;
+    margin-left: 33%;
+    width: 33.33%;
+}
+

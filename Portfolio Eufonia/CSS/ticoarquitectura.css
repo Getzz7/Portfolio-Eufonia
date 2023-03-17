@@ -1,0 +1,376 @@
+.contenedor{
+    display: flex;
+    /*no excede 100%*/
+    flex-wrap: wrap;
+    color: white;
+}
+.contenedor5{
+    display: flex;
+    /*no excede 100%*/
+    flex-wrap: wrap;
+
+}
+
+.bloque-menu{
+    margin-top: 4%;
+    text-align: right;
+    width: 75%;
+}
+.bloque-logo{
+    width: 20%;
+    padding: 2%;
+}
+.bloque-Img {
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5%;
+}
+
+
+.imgBanner{
+    margin-top: 2%;
+    width: 100%;
+    
+}
+.imgBanner2{
+    margin-top: 2%;
+    width: 100%;
+    height: 10%;
+    
+}
+.empresasAliadas{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.boton2{
+ width: 100%;
+ text-align: center;
+}
+.textoCentrado{
+    text-align: center;
+}
+.txt-banner
+{
+    padding-top:35%;
+    position: absolute;
+    font-size: 37px;
+    top: 50%;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    transform: translate(-50%, -50%);
+}
+.margin-top{
+ margin-top: 2%;
+}
+.txt-banner2{
+    width: 40%;
+    float: left;
+}
+  .contenedorBG{
+    background-image: url("../imagenes/Arqui/banner2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 0px;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 410px;
+  }
+  .botones-abajo:hover{
+    background: white;
+    color: white;
+}
+  .botones-abajo{
+    border-radius: 100px;
+    background: none;
+    border: 1px solid white;
+    margin: 0 1%;
+}
+.botones{
+    display: inline-block;
+    width: 30%;
+}
+  .clasesAbajo{
+    margin-left:180px;
+  }
+  .testimonios{
+    letter-spacing: 6px;
+    font-size: 39px;
+  }
+
+  .imgDerecha{
+    margin-top: 70px;
+    width: 7%;
+    float: left;
+  }
+  .imgIzquierda{
+    margin-top: 70px;
+    width: 7%;
+    margin-right: 2%;
+    float: left;
+  }
+  .mapa{
+    width: 100%;
+  }
+.botonBanner{
+    border-radius: 30px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.font{
+font-size: 20px;
+font-style: italic;
+}
+
+body{
+    border: 0px;
+    margin: 0px;
+}
+.proyectosTXT{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 40px;
+}
+.tiposProyectos {
+text-align: center;
+margin-top: 3%;
+
+}
+.insideImage{
+    width: 100%;
+}
+
+.imagenProyectos{
+    margin-top: 6%;
+    width: 25%;
+}
+.imagen-Empresa{
+    margin-left: 20%;
+    width: 50%;
+}
+.imagen-Empresa2{
+    margin-left: 74%;
+    margin-top: 100px;
+}
+.imagenProyectos2{
+    width: 25%;
+}
+hr{
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.margin-left{
+    margin-left: 35%;
+}
+.txtProyecto{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.fondoFooter{
+    margin-left: 200px;
+}
+.contenedor-info-footer{
+    width: 49%;
+    display: inline-block;
+}
+footer{
+        background-image: url(../imagenes/Arqui/footer.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 150px 0;
+        padding-top: 400px;
+        color: rgb(255, 255, 255);
+}
+.contenedor-img-footer{
+    width: 50%;
+    display: inline-block;
+}
+.info{
+    display: inline-block;
+    width: 95%;
+    margin-left: 1%;
+    margin-bottom: 4%;
+}
+.boton-invisible{
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    text-align: center;
+    margin-left: -300px;
+    margin-top: 340px;
+    position: absolute;
+    display: none;
+    
+}.boton-invisible:hover{
+   
+    display: inline;
+    
+}
+
+.imagenProyectos:hover .insideImage {
+    opacity: 0.3;
+  }
+.imagenProyectos2:hover .insideImage {
+    opacity: 0.3;
+  }
+@media(max-width:767px){
+    .fondoFooter{
+        margin-left: 50px;
+    }
+    .contenedor-img-footer{
+        width: 50%;
+        display: block;
+    }
+    .info{
+        display:  inline-block;
+        width: 94%;
+        margin-left: 1%;
+    } 
+    .contenedor-info-footer{
+        margin-top: 5%;
+        margin-left: 20%;
+        width: 80%;
+        display: block;
+    }
+    
+    footer{
+            background-image: url(../imagenes/Arqui/footer.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 150px 0;
+            padding-top: 400px;
+            color: rgb(255, 255, 255);
+    }   
+    
+    .bloque-logo{
+        margin-top: 0%;
+        padding: 0%;
+        margin-left: 10%;
+        width:95%;
+    }
+    .bloque-menu{
+        text-align: center;
+        font-size: 15;
+        margin-top: 0%;
+        width: 100%;
+    }
+    a{
+        margin-top: 0%;
+        font-size: 20px;
+    }
+    .imgBanner{
+    margin-top: 20%;
+    width: 100%;
+    }
+    .txt-banner{
+        padding-top: 10%;
+        position: absolute;
+        font-size: 10px;
+        top: 50%;
+        left: 50%;
+        color: rgb(255, 255, 255);
+        transform: translate(-50%, -50%);
+    }
+    .botonBanner{
+        border-radius: 30px;
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    
+   
+    .proyectosTXT{
+        font-size: 20px;
+    }
+    .tiposProyectos a{
+        padding: 1%;
+        margin-top: 0%;
+        font-size: 16px;
+    }
+    .imagenProyectos{
+        margin-top: 3%;
+
+    }
+    .txtProyecto{
+        color: black;
+        font-size: 15px;
+
+    }
+   
+   
+    .bloque-Img{
+        width: 100%;;
+    }
+    .contenedorBG{
+        padding: 10px 0px;
+        background-size: 100%;
+        padding-bottom: 410px;
+        background-position: center;
+    }
+    .imgIzquierda{
+        margin-top: 70px;
+        width: 7%;
+        margin-right: 2%;
+        float: left;
+    }
+    .imgDerecha{
+        margin-top: 70px;
+        width: 7%;
+        float: left;
+    }
+    
+    .testimonios{
+        font-size: 15px;
+    }
+    .font{
+        font-size: 10px;
+    }
+    .botones{
+        width: 28%;
+    }
+    .clasesAbajo{
+        margin-left: 50px;
+    }
+    .mapa{
+        width: 100%;
+    }
+    
+    .blanco{
+        color: rgb(255, 255, 255);
+    }
+   
+   
+   
+   
+   
+    
+    
+}
+
+
+
+
+
